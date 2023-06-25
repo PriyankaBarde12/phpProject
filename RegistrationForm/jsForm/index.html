@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		
+		<div class="formreg">
+			<form autocomplete="off" onsubmit="onFormSubmit()">
+				<div>
+			<h3 style="color: white ;">Student Registration</h3>
+		</div>
+				<div>
+					<label>Name</label><br>
+					<input type="text" name="sname" id="sname">
+				</div>
+				<div>
+					<label>City</label><br>
+					<input type="text" name="cityName" id="cityName">
+				</div>
+				<div>
+					<label>Email</label><br>
+					<input type="text" name="email" id="email">
+				</div>
+				<div>
+					<label>Password</label><br>
+					<input type="number" name="password" id="password">
+				</div>
+				<div>
+					<label>Phone Number</label><br>
+					<input type="number" name="phone" id="phone">
+				</div>
+				<div class="form_action--button">
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</div>
+			</form>
+		</div>
+		
+			<br><br>
+			
+			<table class="list "  id="studList">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>City</th>
+						<th>Email</th>
+						<th>Password</th>
+						<th>Phone</th>
+						<th>Action
+							
+						</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</section>
+</body>
+</html>
+<!--  <form autocomplete="off" onsubmit="onFormSubmit()">
+                   
+                  
